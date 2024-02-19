@@ -2,6 +2,7 @@ package com.in28minutes.learnspringin10steps.game;
 
 import org.springframework.stereotype.Component;
 
+@Component
 public class PacManGame implements GamingConsole{
 
     public void up(){
