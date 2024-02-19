@@ -12,7 +12,8 @@ public class LearnSpringIn10StepsApplication {
 
 	public static void main(String[] args) {
 		// SpringApplication.run(LearnSpringIn10StepsApplication.class, args);
-		SuperContraGame game = new SuperContraGame();
+		MarioGame game = new MarioGame();
+		// SuperContraGame game = new SuperContraGame();
 		GameRunner runner = new GameRunner(game);
 		runner.run();
 	}

@@ -1,6 +1,6 @@
 package com.in28minutes.learnspringin10steps.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole{
 
     public void up(){
         System.out.println("Mario look Up!");
