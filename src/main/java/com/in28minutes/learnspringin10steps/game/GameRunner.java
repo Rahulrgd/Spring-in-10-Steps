@@ -2,8 +2,8 @@ package com.in28minutes.learnspringin10steps.game;
 
 public class GameRunner {
 
-    private MarioGame game;
-    public GameRunner(MarioGame game) {
+    private SuperContraGame game;
+    public GameRunner(SuperContraGame game) {
         this.game = game;
     }
 
